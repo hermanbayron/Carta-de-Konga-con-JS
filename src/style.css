@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#rotar {
+  transform: rotate(180deg);
+}
+
+#body {
+  background-color: green;
+}
+
+.card {
+  height: 500px;
+  margin-top: 100px;
+}
+
+#paloBot,
+#paloTop,
+#number {
+  font-size: 100px;
+}
+
+#number {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.card-body {
+  margin-top: -35px;
+}
